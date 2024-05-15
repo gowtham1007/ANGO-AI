@@ -12,7 +12,7 @@
         }
         
         body {
-            background: linear-gradient(135deg,);
+            background: linear-gradient();
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
         }
