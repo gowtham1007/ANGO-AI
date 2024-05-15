@@ -1,3 +1,4 @@
+import streamlit as st
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
