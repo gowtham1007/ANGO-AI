@@ -14,3 +14,22 @@ import io
 from PIL import Image
 image = Image.open(io.BytesIO(image_bytes))
 image.show()
+import streamlit as st
+
+def main():
+    st.title("Simple Streamlit App")
+    
+    # Add a text input widget
+    name = st.text_input("ango ai/app.py, "")
+
+    # Add a button widget
+    button_clicked = st.button("Click me!")
+
+    # Display a message based on whether the button is clicked or not
+    if button_clicked:
+        st.write(f"Hello, {name}! You clicked the button.")
+    else:
+        st.write("Please click the button.")
+
+if __name__ == "__main__":
+    main()
