@@ -1,0 +1,15 @@
+  Running setup.py bdist_wheel for serpy ... error
+  Complete output from command /usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-lE7moQ/serpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/pip-wheel-6ovRMI --python-tag cp27:
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+  IOError: [Errno 2] No such file or directory: '/tmp/pip-install-lE7moQ/serpy/setup.py'
+  
+  ----------------------------------------
+  Failed building wheel for serpy
+  Running setup.py clean for serpy
+  Complete output from command /usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-lE7moQ/serpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" clean --all:
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+  IOError: [Errno 2] No such file or directory: '/tmp/pip-install-lE7moQ/serpy/setup.py'
+  
+  ----------------------------------------
